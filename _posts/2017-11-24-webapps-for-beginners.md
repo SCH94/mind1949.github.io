@@ -4,9 +4,10 @@ title: "webapps-for-beginners"
 date: 2017-11-24
 tags:
     Ruby
-    Ruby on Rails
-    教材
+    Ruby_on_Rails
+    笔记
 ---
+
 
 # Preface
 
@@ -592,8 +593,7 @@ If you run this code it will output something like this:
 ... which is a valid HTML document that a browser would render (display) like
 this:
 
-<img src="/assets/images/06-erb_1.png">
-
+[image:7F211BC6-79E9-4CC9-9ACC-B3F986836751-33842-0002C93AE8FEFBFB/38A2B041-42CE-4CF2-B562-E6F44BC8D0A1.png]
 Looks good?
 
 To recap, all that our code above does is the following:
@@ -889,9 +889,9 @@ Now your web application has started you can point your browser to
 <a href="http://localhost:9292">http://localhost:9292</a>
 something like this:
 
-<img src="/assets/images/08-rack_1.png">
+[image:FCE3C7DF-57D3-4224-BE1D-E076F698E420-33842-0002C949336228CA/87F7BCAB-71FD-41C6-B722-34613988BAAA.png]
 
-Pretty cool, isn't it? With just a few lines of simple Ruby code you have just
+Pretty cool, isn’t it? With just a few lines of simple Ruby code you have just
 written an actual web application, and started a fully functional web server
 with it.
 
@@ -1213,7 +1213,7 @@ If you restart your server, and point your browser to
 [http://localhost:9292/ruby/monstas](http://localhost:9292/ruby/monstas)
 you should now see something like this:
 
-<img src="/assets/images/08-rack_2.png">
+[image:2B14C27A-3236-44A1-802D-1BFECD24B213-33842-0002C9548728BA79/15F4DCC5-6EA4-49DA-BD7E-A78947ACFE23.png]
 
 Congratulations!
 
@@ -1407,7 +1407,7 @@ So let's point the browser to <a href="http://localhost:4567">http://localhost:4
 
 You should see something like this:
 
-<img src="/assets/images/09-sinatra_1.png">
+[image:5C927098-7FC3-4903-912F-99EED6BB1454-33842-0002C96DAB905AAB/B74656CC-A90E-4490-AE30-A9BC5E05F3FC.png]
 
 That was easy, wasn't it.
 
@@ -1574,7 +1574,7 @@ as in our examples in the chapters about <a href="/erb.html">ERB</a>
 If you restart the server, and reload the page in your browser, it should now
 look like this:
 
-<img src="/assets/images/09-sinatra_2.png">
+[image:ABAA77F8-823A-4882-BBA4-2A4BDE2E6807-33842-0002C97710060DB9/FB50B34D-9B06-4CF6-8830-3EEE9A3349B8.png]
 
 Awesome, we're now serving HTML, not just plain text.
 
@@ -1800,7 +1800,7 @@ Here's how a simple form looks in HTML:
 If you copy this HTML code to a file, and open the file in your browser it will
 look similar to this:
 
-<img src="/assets/images/10-forms_1.png">
+[image:768482DA-4920-49D2-A73D-90F3C267C2F1-33842-0002C97E05983D5C/CFE77E90-6798-4DC8-B840-2C15B4086C49.png]
 
 Nice.
 
@@ -1942,7 +1942,7 @@ And add this code at the top of your `monstas.erb` view:
 When you restart the server, and reload the page you should see something like
 this:
 
-<img src="/assets/images/10-forms_2.png">
+[image:83147F6D-A5DF-43CE-B740-DB5170977A80-33842-0002C9846BD1E3F6/FF527BCE-452A-4196-99CB-41782D5733AE.png]
 
 Awesome!
 
@@ -1964,13 +1964,13 @@ We can do that by specifying the `value` attribute on the `input` tag, like so:
 When you restart your application, and reload the page, it should now put the
 name to the input element:
 
-<img src="/assets/images/10-forms_3.png">
+[image:730C4B51-E8CA-4DC7-BDE4-1DFCE7A9A39E-33842-0002C988064C2A5E/32EEB2C3-18CC-4D6F-BC90-63F1C64E9BE0.png]
 
 Perfect.
 
 # Storing data
 
-So far our little application doesn't do anything with the data that we submit,
+So far our little application doesn’t do anything with the data that we submit,
 except for displaying it on the same page right away. Once you go to another
 URL that previous data is gone.
 
@@ -2134,7 +2134,7 @@ So let's add this at the end of your file (we now want to display the full list)
 <ul>
 ```
 
-<img src="/assets/images/11-storing_data_1.png">
+[image:465EE0EC-5616-4A33-B078-30FC92232199-33842-0002C992E0280C2A/9670BB1B-58DC-432B-B05C-32CFF79967DC.png]
 
 Wheeeee! Pretty cool.
 
@@ -2227,7 +2227,7 @@ post "/monstas" do
 end
 ```
 
-<img src="/assets/images/11-storing_data_2.png">
+[image:B3392392-987B-40DE-8AA3-1288EDB9725C-33842-0002C998DAF2E82D/E8424B43-6173-4916-85F5-63DB93E4A7C0.png]
 
 Hmmmm. Ok, this isn't too bad, we could make this a proper HTML template.
 
@@ -2447,7 +2447,7 @@ Doing so we can then disply it in our view:
 Let's try it out. Restart your application, and go to <a href="http://localhost:4567/monstas">http://localhost:4567/monstas</a>
 If you enter a name, and click submit you should then see something like this:
 
-<img src="/assets/images/12-sessions_1.png">
+[image:99A04D58-6E8C-4EA1-9ACF-6F3040EAD00C-33842-0002C9A112F444C9/952E85B9-0D50-4D9F-B4B8-E6B7FAE8DADC.png]
 
 How does this work?
 
