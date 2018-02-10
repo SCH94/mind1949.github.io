@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "webapps-for-beginners"
-date: 2017-11-24
+title: "Webapps for beginners"
+date: 2017-12-3
 tags:
-    Ruby
-    Ruby_on_Rails
-    教材
+  教材
+  rails
 ---
 
+# Webapps for beginners
 
 # Preface
 
@@ -4075,4 +4075,4 @@ browser's web inspector on the network tab.
 ## SQL
 
 Interactive SQL training:
-http://www.sqlcourse.com/
+http://www.sqlcourse.com/ƒ
