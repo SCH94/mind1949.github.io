@@ -24,3 +24,11 @@ tags:
 ## Blocks, Procs, and Enumerable
 
 * [Blocks, Procs, and Enumerable](https://robots.thoughtbot.com/blocks-procs-and-enumerable)
+
+## rails 事务
+
+* [Rails 中的事务处理](https://ruby-china.org/topics/25427)
+
+## rails中的乐观锁与悲观锁
+
+* [Rails 中乐观锁与悲观锁的使用](https://ruby-china.org/topics/28963)
