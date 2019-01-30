@@ -35,3 +35,9 @@ listen_addresses = '*'
 ```
 host all random_name 0.0.0.0/0 trust
 ```
+
+* 重启postgresql
+`$ service postgresql restart`
+
+## 注意
+> 在要想远程访问数据库要在阿里云的安全组中开放postgresql的5432端口
