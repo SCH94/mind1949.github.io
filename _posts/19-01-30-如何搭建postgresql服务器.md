@@ -37,6 +37,7 @@ host all random_name 0.0.0.0/0 trust
 ```
 
 * 重启postgresql
+
 `$ service postgresql restart`
 
 ## 注意
